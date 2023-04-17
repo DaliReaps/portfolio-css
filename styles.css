@@ -1,0 +1,78 @@
+.class1 {background: #2E1114;
+         text-align: left;
+         color :white                  } 
+.class2 {background: #501B1D;
+text-align: center;
+width: 70%;
+margin: 50px 200px;
+border: 10px: dotted :solid  ;} 
+.class3 {background: #64485C;
+color: black} 
+.class4 {background: #83677B;} 
+.class5 {background: #ADADAD;
+color: black;
+text-align: justify;} 
+.box1{
+    margin-bottom: 10px ;
+   
+    height: 100%;
+   background-color: #83677B ;
+   margin-right: 50%;
+}
+.box2{
+    margin-bottom: 10px ;
+    
+    height: 100%;
+    background-color: #64485C;
+   margin-left: 255px
+    ;
+}
+
+
+.divparent {
+    display: flex}
+
+P{
+    font-family:'Roboto',sans-serif;
+}
+#id-table tr:nth-child(odd){
+background-color: #83677B;
+}
+#id-table tr:nth-child(even){
+    background-color:#ADADAD;
+    }
+    .name {
+        background-color: #ADADAD;
+        color: white;}
+.name:hover{
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+}
+.message {
+    background-color: #ADADAD;
+    overflow: hidden;
+    height: 10rem;
+}
+
+.formEntry {
+    display: block;
+    margin: 30px auto;
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    transition: all 0.5s ease 0s;}
+    .button {
+        background-color:#501B1D; 
+        border: none;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 50%;
+      }
